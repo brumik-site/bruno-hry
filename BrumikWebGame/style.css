@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: sans-serif;  
+  background: linear-gradient(to bottom right, #444);
+  color: white;
+}
+
+.menubar {
+  background: #333;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 4px 10px #222;
+}
+
+.menubar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menubar li {
+  margin: 0 20px;
+}
+
+.menubar a:hover {
+  color: #ff0000;
+}
+
+.menubar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.game1-container {
+  text-align: center;
+  background: #555;
+  padding: 50px;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.game1-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: #00aa66;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.game1-button:hover {
+  background: #00cc77;
+}
+
+.game1-name {
+  color: white;
+  text-decoration: none;
+  cursor: default;
+}
+
+canvas {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.exit-game1-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: red;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 10;
+}
+
+.exit-game1-button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.pozor-text {
+  font-size: 40px;
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.keyboard-text {
+  font-size: 20px;
+  color: red;
+  font-weight: italic;
+  margin-top: 10px;
+}
+
+.web-format {
+  font-size: 40px;
+  color: dodgerblue;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.please-text {
+  font-size: 20px;
+  color: dodgerblue;
+  font-weight: italic;
+  margin-top: 10px;
+}
